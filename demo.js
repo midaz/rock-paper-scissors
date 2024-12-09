@@ -57,7 +57,7 @@ function handleGameEnd(){
     }
 }
 
-
+// Update game UI after each round and end game
 function updateUI(humanChoice, computerChoice, round, result) {
     document.querySelector('.computer-choice').textContent = `${computerChoice}`;
     document.querySelector('#game-score').textContent = `Round: ${round + 1} | Score: ${humanScore}-${computerScore}`;
