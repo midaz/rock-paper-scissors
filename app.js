@@ -74,3 +74,7 @@ function playGame () {
 
 
 playGame()
+
+// Add event listener to all 3 buttons. Once clicked, it initiates playgame(). So if I refresh, it starts a new game. 
+// 
+// Upon the game ending, the buttons are disabled.
